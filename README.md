@@ -1,2 +1,10 @@
 # vimux-dotfiles
-tmux vim and bashrc conf files for productivity.
+
+Tmux, Vim, venv and bashrc conf files for productivity.
+
+---
+# Added
+
+### Tmux logging plugins
+### Vim plugins
+

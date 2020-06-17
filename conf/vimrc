@@ -47,7 +47,6 @@ set incsearch
 
 " Vim plugins
 
-"" Start of install plugin
 call plug#begin('~/.vim/plugged')
 
 " colorscheme
@@ -82,8 +81,12 @@ Plug 'mbbill/undotree'
 " Rust plugin
 Plug 'rust-lang/rust.vim'
 
+" HTML / CSS / SASS Highlighter
+Plug 'https://github.com/gko/vim-coloresque.git'
 
-"" End of install plugin tag
+" Jinja
+Plug 'lepture/vim-jinja'
+
 call plug#end()
 
 " Other configs

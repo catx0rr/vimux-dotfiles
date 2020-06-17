@@ -53,6 +53,7 @@ call plug#begin('~/.vim/plugged')
 " colorscheme
 "Plug 'morhetz/gruvbox'
 Plug 'AlessandroYorba/Alduin'
+"Plug 'ParamagicDev/vim-medic_chalk'
 
 " ripgrep (fast grep)
 Plug 'jremmen/vim-ripgrep'
@@ -71,6 +72,9 @@ Plug 'lyuts/vim-rtags'
 
 " Code Auto completion
 Plug 'ycm-core/YouCompleteMe', { 'do': './install.py' }
+
+" Code Auto Pairs
+Plug 'jiangmiao/auto-pairs'
 
 " Undo tree
 Plug 'mbbill/undotree'
@@ -113,7 +117,7 @@ colorscheme alduin
 " <leader> - the mapleader key
 " <CR> - end of command, execute
 " <bar> - pipe
-
+" <SPACE> - enter the command with a trailing space
 
 " Shortcuts Bindings
 

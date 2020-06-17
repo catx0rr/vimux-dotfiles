@@ -87,6 +87,9 @@ Plug 'https://github.com/gko/vim-coloresque.git'
 " Jinja
 Plug 'lepture/vim-jinja'
 
+" Nerdtree file system explorer
+Plug'preservim/nerdtree'
+
 call plug#end()
 
 " Other configs
@@ -150,6 +153,8 @@ nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
 
+" Nerdtree filesystem explorer
+nnoremap <silent> <leader>nt :NERDTree <CR>
 
 "" Project / Coding 
 
